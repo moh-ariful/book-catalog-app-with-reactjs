@@ -11,7 +11,7 @@ const Trending = () => {
     <div>
       <Container>
         <br />
-        <h1 className="text-white">TRENDING MOVIES</h1>
+        <h1 className="text-white">TRENDING BOOKS</h1>
         <br />
         <Row>
           <Col md={4} className="movieWrapper" id="trending">
@@ -25,7 +25,7 @@ const Trending = () => {
                     content
                   </Card.Text>
                   <Card.Text className="text-left">
-                    Last updated 3 mins ago
+                    Here best seller book in the world
                   </Card.Text>
                 </div>
               </div>
@@ -41,7 +41,7 @@ const Trending = () => {
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
                   <Card.Title className="text-center">
-                    EVERYTHING EVERWHERE
+                    THE BOOK IS THE WORLD OF THE WINDOW
                   </Card.Title>
                   <Card.Text className="text-left">
                     This is a wider card with natural lead-in to additional
