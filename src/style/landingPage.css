@@ -1,0 +1,40 @@
+.myBG {
+    height: 100vh;
+    background:url("../assets/images/main.jpg");
+    background-size: cover;
+}
+
+.intro {
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.tagline {
+    font-weight: 811;
+    font-size: 49px;
+    line-height: 1;
+    text-shadow: 3px 3px black;
+    letter-spacing: 5px;
+}
+
+.title-1 {
+    font-weight: 800;
+    font-size: 17px;
+    color: yellow;
+    
+}
+
+.title-2 {
+    font-weight: 900;
+    font-size: 17px;
+    color: yellow;
+    
+}
+
+.trending {
+    height: 100vh;
+    background: url("../assets/images/bg/scifi.jpg");
+    background-size: cover;
+}

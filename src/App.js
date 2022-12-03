@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Navigation from './components/Navigation';
+import "./style/landingPage.css";
+import Intro from './components/Intro';
+import Trending from './components/Trending';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* Bagian Intro */}
+      <div className='myBG'>
+      <Navigation />
+      <Intro />
+      </div>
+      {/* Pentup Intro */}
+
+      {/* Bagian Trending */}
+      <div className='trending'>
+        <Trending />
+      </div>
+      {/* Penutup Trending */}
     </div>
   );
 }
