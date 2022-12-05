@@ -1,7 +1,7 @@
 import {Navbar, Container, Nav} from "react-bootstrap"
 
 
-const Navigation = () => {
+const Mynavbar = () => {
     return (
         <div>
         <Navbar variant="dark">
@@ -17,4 +17,4 @@ const Navigation = () => {
     )
 }
 
-export default Navigation;
+export default Mynavbar;

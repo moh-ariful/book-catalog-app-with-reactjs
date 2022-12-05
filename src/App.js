@@ -1,9 +1,10 @@
 import './App.css';
-import Navigation from './components/Navigation';
+import Mynavbar from './components/myNavbar';
 import "./style/landingPage.css";
 import Intro from './components/Intro';
 import Trending from './components/Trending';
 import Bestseller from './components/Bestseller';
+
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     <div>
       {/* Bagian Intro */}
       <div className='front'>
-      <Navigation />
+      <Mynavbar />
       <Intro />
       </div>
       {/* Pentup Intro */}

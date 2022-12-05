@@ -9,7 +9,7 @@ const Intro = () => {
             <div className='tagline'>I created this site using </div>
             <div className='tagline'>React JS - Moh Ariful</div>
             <div className='introButton mt-3 text-center'>
-                <Button href='#bestseller' variant='info'>See all the lists</Button>
+                <Button href='#bestseller' className='introButton' variant='info'>See all the lists</Button>
             </div>
             </Col>
           </Row>
