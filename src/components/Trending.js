@@ -19,13 +19,13 @@ const Trending = () => {
               <Image src={duneImage} alt="Dune Movies" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
-                  <Card.Title className="text-center">DUNE</Card.Title>
+                  <Card.Title className="text-center">Books are a uniquely portable magic - Stephen King.</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with natural lead-in to additional
-                    content
+                  That's the thing about books. They let you travel without 
+                  moving your feet. Books must be read as deliberately and reservedly as they were written - Jhumpa Lahiri.
                   </Card.Text>
                   <Card.Text className="text-left">
-                    Here best seller book in the world
+                  A reader lives a thousand lives before he dies.
                   </Card.Text>
                 </div>
               </div>
@@ -41,14 +41,14 @@ const Trending = () => {
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
                   <Card.Title className="text-center">
-                    THE BOOK IS THE WORLD OF THE WINDOW
+                  Books are a uniquely portable magic - Stephen King.
                   </Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with natural lead-in to additional
-                    content
+                  That's the thing about books. They let you travel without 
+                  moving your feet. Books must be read as deliberately and reservedly as they were written - Jhumpa Lahiri.
                   </Card.Text>
                   <Card.Text className="text-left">
-                    Last updated 3 mins ago
+                  A reader lives a thousand lives before he dies - George R. R. Martin.
                   </Card.Text>
                 </div>
               </div>
@@ -59,13 +59,13 @@ const Trending = () => {
               <Image src={infiniteImage} alt="Dune Movies" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
-                  <Card.Title className="text-center">INFINITE</Card.Title>
+                  <Card.Title className="text-center">Books are a uniquely portable magic - Stephen King.</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with natural lead-in to additional
-                    content
+                  That's the thing about books. They let you travel without 
+                  moving your feet. Books must be read as deliberately and reservedly as they were written - Jhumpa Lahiri.
                   </Card.Text>
                   <Card.Text className="text-left">
-                    Last updated 3 mins ago
+                  A reader lives a thousand lives before he dies - George R. R. Martin.
                   </Card.Text>
                 </div>
               </div>
@@ -76,13 +76,13 @@ const Trending = () => {
               <Image src={jokerImage} alt="Dune Movies" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
-                  <Card.Title className="text-center">JOKER</Card.Title>
+                  <Card.Title className="text-center">Books are a uniquely portable magic - Stephen King.</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with natural lead-in to additional
-                    content
+                  That's the thing about books. They let you travel without 
+                  moving your feet. Books must be read as deliberately and reservedly as they were written - Jhumpa Lahiri.
                   </Card.Text>
                   <Card.Text className="text-left">
-                    Last updated 3 mins ago
+                  A reader lives a thousand lives before he dies - George R. R. Martin.
                   </Card.Text>
                 </div>
               </div>
@@ -97,13 +97,13 @@ const Trending = () => {
               />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
-                  <Card.Title className="text-center">LIGHT YEAR</Card.Title>
+                  <Card.Title className="text-center">Books are a uniquely portable magic - Stephen King.</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with natural lead-in to additional
-                    content
+                  That's the thing about books. They let you travel without 
+                  moving your feet. Books must be read as deliberately and reservedly as they were written- Jhumpa Lahiri.
                   </Card.Text>
                   <Card.Text className="text-left">
-                    Last updated 3 mins ago
+                  A reader lives a thousand lives before he dies - George R. R. Martin.
                   </Card.Text>
                 </div>
               </div>
@@ -114,13 +114,13 @@ const Trending = () => {
               <Image src={morbiusImage} alt="Dune Movies" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
-                  <Card.Title className="text-center">MORBIUS</Card.Title>
+                  <Card.Title className="text-center">Books are a uniquely portable magic - Stephen King.</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with natural lead-in to additional
-                    content
+                  That's the thing about books. They let you travel without 
+                  moving your feet. Books must be read as deliberately and reservedly as they were written - Jhumpa Lahiri.
                   </Card.Text>
                   <Card.Text className="text-left">
-                    Last updated 3 mins ago
+                  A reader lives a thousand lives before he dies - George R. R. Martin.
                   </Card.Text>
                 </div>
               </div>

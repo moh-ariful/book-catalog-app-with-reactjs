@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.06d62114.css",
+    "main.js": "/static/js/main.9c9ecbd7.js",
+    "static/js/787.5d5ea81f.chunk.js": "/static/js/787.5d5ea81f.chunk.js",
+    "static/media/scifi.jpg": "/static/media/scifi.d7e33e800ac02f489fd8.jpg",
+    "static/media/main.jpg": "/static/media/main.da2fafce41610b2e3b50.jpg",
+    "static/media/everything.jpg": "/static/media/everything.ed96eaa84be6674ac60c.jpg",
+    "static/media/lightyear.jpg": "/static/media/lightyear.881da96e35afae963ad1.jpg",
+    "static/media/joker.jpg": "/static/media/joker.4231e28eb1f27552d08f.jpg",
+    "static/media/morbius.jpg": "/static/media/morbius.c2de5c653057f3da7c51.jpg",
+    "static/media/infinite.jpg": "/static/media/infinite.6e1272e9a944932e5963.jpg",
+    "static/media/dune.jpg": "/static/media/dune.bf1854be9390dd5f2921.jpg",
+    "index.html": "/index.html",
+    "main.06d62114.css.map": "/static/css/main.06d62114.css.map",
+    "main.9c9ecbd7.js.map": "/static/js/main.9c9ecbd7.js.map",
+    "787.5d5ea81f.chunk.js.map": "/static/js/787.5d5ea81f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06d62114.css",
+    "static/js/main.9c9ecbd7.js"
+  ]
+}

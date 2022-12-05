@@ -3,6 +3,7 @@ import Navigation from './components/Navigation';
 import "./style/landingPage.css";
 import Intro from './components/Intro';
 import Trending from './components/Trending';
+import SuperHero from './components/Superhero';
 
 
 function App() {
@@ -20,6 +21,11 @@ function App() {
         <Trending />
       </div>
       {/* Penutup Trending */}
+
+      <div className='superhero'>
+        <SuperHero />
+      </div>
+      
     </div>
   );
 }

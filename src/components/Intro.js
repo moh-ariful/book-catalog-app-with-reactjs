@@ -6,10 +6,10 @@ const Intro = () => {
         <Container className='text-white d-flex justify-content-center align-items-center text-center'>
           <Row>
             <Col>
-            <div className='tagline'>PUSTAKA ONLINE</div>
-            <div className='tagline'>ONLINE KOMPLIT</div>
+            <div className='tagline'>I created this site using </div>
+            <div className='tagline'>React JS - Moh Ariful</div>
             <div className='introButton mt-3 text-center'>
-                <Button variant='info'>Lihat semua daftarnya</Button>
+                <Button variant='info'>See all the lists</Button>
             </div>
             </Col>
           </Row>
