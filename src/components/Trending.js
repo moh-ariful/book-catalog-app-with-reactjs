@@ -1,10 +1,10 @@
 import { Card, Container, Row, Col, Image } from "react-bootstrap"
-import duneImage from "../assets/images/trending/dune.jpg"
-import everythingImage from "../assets/images/trending/everything.jpg"
-import infiniteImage from "../assets/images/trending/infinite.jpg"
-import jokerImage from "../assets/images/trending/joker.jpg"
-import lightyearImage from "../assets/images/trending/lightyear.jpg"
-import morbiusImage from "../assets/images/trending/morbius.jpg"
+import cctv from "../assets/images/trending/cctv.jpg"
+import webserver from "../assets/images/trending/webserver.jpg"
+import micro from "../assets/images/trending/micro.jpg"
+import raspberry from "../assets/images/trending/raspberry.jpg"
+import elit from "../assets/images/trending/elit.jpg"
+import otomasi from "../assets/images/trending/otomasi.jpg"
 
 const Trending = () => {
   return (
@@ -14,9 +14,9 @@ const Trending = () => {
         <h1 className="text-white">TRENDING BOOKS</h1>
         <br />
         <Row>
-          <Col md={4} className="movieWrapper" id="trending">
-            <Card className="movieImage">
-              <Image src={duneImage} alt="Dune Movies" className="images" />
+          <Col md={4} className="bookWrapper" id="trending">
+            <Card className="bookImage">
+              <Image src={cctv} alt="Pustaka Online" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
                   <Card.Title className="text-center">Books are a uniquely portable magic - Stephen King.</Card.Title>
@@ -31,11 +31,11 @@ const Trending = () => {
               </div>
             </Card>
           </Col>
-          <Col md={4} className="movieWrapper">
-            <Card className="movieImage">
+          <Col md={4} className="bookWrapper">
+            <Card className="bookImage">
               <Image
-                src={everythingImage}
-                alt="Dune Movies"
+                src={webserver}
+                alt="Pustaka Online"
                 className="images"
               />
               <div className="bg-dark">
@@ -54,9 +54,9 @@ const Trending = () => {
               </div>
             </Card>
           </Col>
-          <Col md={4} className="movieWrapper">
-            <Card className="movieImage">
-              <Image src={infiniteImage} alt="Dune Movies" className="images" />
+          <Col md={4} className="bookWrapper">
+            <Card className="bookImage">
+              <Image src={micro} alt="Micro Python Book" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
                   <Card.Title className="text-center">Books are a uniquely portable magic - Stephen King.</Card.Title>
@@ -71,9 +71,9 @@ const Trending = () => {
               </div>
             </Card>
           </Col>
-          <Col md={4} className="movieWrapper">
-            <Card className="movieImage">
-              <Image src={jokerImage} alt="Dune Movies" className="images" />
+          <Col md={4} className="bookWrapper">
+            <Card className="bookImage">
+              <Image src={raspberry} alt="Raspberry Book" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
                   <Card.Title className="text-center">Books are a uniquely portable magic - Stephen King.</Card.Title>
@@ -88,11 +88,11 @@ const Trending = () => {
               </div>
             </Card>
           </Col>
-          <Col md={4} className="movieWrapper">
-            <Card className="movieImage">
+          <Col md={4} className="bookWrapper">
+            <Card className="bookImage">
               <Image
-                src={lightyearImage}
-                alt="Dune Movies"
+                src={elit}
+                alt="Elit Globalis Book"
                 className="images"
               />
               <div className="bg-dark">
@@ -109,9 +109,9 @@ const Trending = () => {
               </div>
             </Card>
           </Col>
-          <Col md={4} className="movieWrapper">
-            <Card className="movieImage">
-              <Image src={morbiusImage} alt="Dune Movies" className="images" />
+          <Col md={4} className="bookWrapper">
+            <Card className="BookImage">
+              <Image src={otomasi} alt="Buku Otomasi Rumah" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
                   <Card.Title className="text-center">Books are a uniquely portable magic - Stephen King.</Card.Title>

@@ -1,12 +1,12 @@
 import { Card, Container, Row, Col, Image } from "react-bootstrap"
-import javascript from "../assets/images/superhero/javascript.jpg"
-import react from "../assets/images/superhero/react.jpg"
-import python from "../assets/images/superhero/python.jpg"
-import django from "../assets/images/superhero/django.jpg"
-import nginx from "../assets/images/superhero/nginx.jpg"
-import postgre from "../assets/images/superhero/postgre.jpg"
+import javascript from "../assets/images/bestseller/javascript.jpg"
+import react from "../assets/images/bestseller/react.jpg"
+import python from "../assets/images/bestseller/python.jpg"
+import django from "../assets/images/bestseller/django.jpg"
+import nginx from "../assets/images/bestseller/nginx.jpg"
+import postgre from "../assets/images/bestseller/postgre.jpg"
 
-const SuperHero = () => {
+const Bestseller = () => {
   return (
     <div>
       <Container>
@@ -15,7 +15,7 @@ const SuperHero = () => {
         <br />
         <Row>
           <Col md={4} className="bookWrapper" id="bestseller">
-            <Card className="movieImage">
+            <Card className="bookImage">
               <Image src={javascript} alt="Javascript Book" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
@@ -31,7 +31,7 @@ const SuperHero = () => {
             </Card>
           </Col>
           <Col md={4} className="bookWrapper">
-            <Card className="movieImage">
+            <Card className="bookImage">
               <Image src={react} alt="React JS Book" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
@@ -47,7 +47,7 @@ const SuperHero = () => {
             </Card>
           </Col>
           <Col md={4} className="bookWrapper">
-            <Card className="movieImage">
+            <Card className="bookImage">
               <Image src={python} alt="Python Book" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
@@ -63,7 +63,7 @@ const SuperHero = () => {
             </Card>
           </Col>
           <Col md={4} className="bookWrapper">
-            <Card className="movieImage">
+            <Card className="bookImage">
               <Image
                 src={django}
                 alt="Django Book"
@@ -83,7 +83,7 @@ const SuperHero = () => {
             </Card>
           </Col>
           <Col md={4} className="bookWrapper">
-            <Card className="movieImage">
+            <Card className="bookImage">
               <Image
                 src={nginx}
                 alt="Nginx Book"
@@ -103,7 +103,7 @@ const SuperHero = () => {
             </Card>
           </Col>
           <Col md={4} className="bookWrapper">
-            <Card className="movieImage">
+            <Card className="bookImage">
               <Image src={postgre} alt="PostgreSQL Book" className="images" />
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
@@ -124,4 +124,4 @@ const SuperHero = () => {
   )
 }
 
-export default SuperHero
+export default Bestseller;

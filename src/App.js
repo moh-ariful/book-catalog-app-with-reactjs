@@ -3,14 +3,14 @@ import Navigation from './components/Navigation';
 import "./style/landingPage.css";
 import Intro from './components/Intro';
 import Trending from './components/Trending';
-import SuperHero from './components/Superhero';
+import Bestseller from './components/Bestseller';
 
 
 function App() {
   return (
     <div>
       {/* Bagian Intro */}
-      <div className='myBG'>
+      <div className='front'>
       <Navigation />
       <Intro />
       </div>
@@ -22,10 +22,10 @@ function App() {
       </div>
       {/* Penutup Trending */}
 
-      <div className='superhero'>
-        <SuperHero />
+      <div className='bestseller'>
+        <Bestseller />
       </div>
-      
+
     </div>
   );
 }

@@ -1,6 +1,6 @@
-.myBG {
+.front {
     height: 100vh;
-    background:url("../assets/images/main.jpg");
+    background:url("../assets/images/front.jpg");
     background-size: cover;
 }
 
@@ -35,7 +35,7 @@
 
 .trending {
     height: auto;
-    background: url("../assets/images/bg/scifi.jpg");
+    background: url("../assets/images/bg/trending.jpg");
     background-size: cover;
 }
 
@@ -46,8 +46,8 @@
     padding: 5px;
 }
 
-.superhero {
+.bestseller {
     height: auto;
-    background: url("../assets/images/bg/spiderman.jpg");
+    background: url("../assets/images/bg/bestseller.jpg");
     background-size: cover;
 }
